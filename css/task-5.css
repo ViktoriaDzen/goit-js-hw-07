@@ -1,0 +1,38 @@
+.widget {
+  width: fit-content;
+  padding: 100px 88px;
+  background-color: #fff;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.widget p {
+  margin: 0;
+}
+
+.change-color {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+  letter-spacing: inherit;
+}
+
+.change-color:hover {
+  background-color: #6c8cff;
+}
